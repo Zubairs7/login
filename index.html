@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peace Path</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 800px;
+        }
+        .container {
+            background-color: #10102c;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 90%;
+            max-width: 400px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            height: 800px;
+        }
+        .header {
+            background-image: url('logimg.jpg'); /* replace with the actual path to the image */
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+        }
+        .content {
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+        }
+        .content h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .content p {
+            margin: 10px 0 20px;
+            font-size: 14px;
+        }
+        .checkbox {
+            display: flex;
+            align-items: bottom;
+            justify-content: center;
+            margin-top: 250px;
+        }
+        .checkbox input {
+            margin-right: 10px;
+        }
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .buttons button {
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .buttons .create-account {
+            background-color: #0047ff;
+            margin-top: 20px;
+            color: #fff;
+        }
+        .buttons .login {
+            background-color: #333;
+            color: #fff;
+        }
+      .checkbox{
+            display: flex;
+         margin top: 200px;
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header"></div>
+        <div class="content">
+            <h1>Welcome to
+            Peace Path</h1>
+            <p>Step into your Peaceful Pathway</p>
+            <div class="checkbox">
+                <input type="checkbox" id="terms">
+                <label for="terms">I agree to Peace path's <a href="#" style="color: #0047ff;">Terms And Conditions</a></label>
+            </div>
+            <div class="buttons">
+                <button class="create-account">Create an account</button>
+                <button class="login">Log in</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
